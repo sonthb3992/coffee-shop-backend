@@ -6,7 +6,7 @@ app.get('/api/hello', (req, res) => {
     res.json({ message: 'Hello, World!' });
 });
 
-const port = 3005;
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`Server is listening on port ${port}`);
 });
