@@ -2,7 +2,7 @@
   "name": "coffee-shop-backend",
   "version": "1.0.0",
   "description": "The backend for the coffee shop react app",
-  "main": "./dist/app.js",
+  "main": "dist/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
